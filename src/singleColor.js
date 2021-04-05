@@ -21,7 +21,9 @@ const SingleColor = ({ rgb, weight, index }) => {
     >
       <div className={index > 10 ? "weight white" : ""}>{weight} %</div>
       <div className={index > 10 ? "weight white" : ""}>{hex}</div>
-      <div className={alert ? "alert white" : "alert"}>Copied !</div>
+      <div className={alert ? "alert white" : "alert"}>
+        COPIED TO CLIPBOARD !
+      </div>
     </div>
   );
 };
